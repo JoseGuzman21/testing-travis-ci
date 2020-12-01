@@ -23,5 +23,11 @@ class TestMyModule(unittest.TestCase):
     def test_sum5(self):
         self.assertEqual(mymodule.sum(120020, 80), 120100)
 
+    def test_sum6(self):
+        self.assertEqual(mymodule.sum(1200000, 1200000), 2400000)
+
+    def test_sum7(self):
+        self.assertEqual(mymodule.sum(120000000, 120000000), 240000000)
+
 if __name__ == "__main__":
     unittest.main()
