@@ -2,7 +2,7 @@ language: python
 python:
   - "3.8"
 script:
-  - python test_module.py
+  - python -m unittest mymodule.py
 notifications:
   email:
     recipients:
