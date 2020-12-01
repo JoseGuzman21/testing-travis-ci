@@ -5,7 +5,7 @@ install:
   - pip install coveralls
 script:
   - python -m unittest mymodule.py
-  - coverage run -m  unittest mymodule.py
+  - coverage run -m unittest mymodule.py
 after_success: coveralls
 notifications:
   email:
