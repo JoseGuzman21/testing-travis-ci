@@ -1,2 +1,2 @@
 repo_token: OZmoL97Grmz0hGDlFIwFCUFx6NhZPHVDf
-gem 'coveralls', require: false
+gem 'coveralls', require: true
